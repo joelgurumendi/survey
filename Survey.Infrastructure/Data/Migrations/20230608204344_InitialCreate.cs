@@ -263,7 +263,7 @@ namespace Surveys.Infrastructure.Data.Migrations
                 schema: "Sur",
                 table: "User",
                 columns: new[] { "Id", "CreatedAt", "CreatedBy", "DeletedAt", "Email", "IsActive", "IsDeleted", "Name", "UpdatedAt" },
-                values: new object[] { new Guid("7a2346e2-4f06-4a6c-bf22-8a16b7a69c4c"), new DateTime(2023, 6, 8, 20, 43, 44, 55, DateTimeKind.Utc).AddTicks(4338), new Guid("7a2346e2-4f06-4a6c-bf22-8a16b7a69c4c"), null, "ljgurumendi@gmail.com", true, false, "Joel Gurumendi", null });
+                values: new object[] { new Guid("7a2346e2-4f06-4a6c-bf22-8a16b7a69c4c"), new DateTime(2023, 6, 8, 20, 43, 44, 55, DateTimeKind.Utc).AddTicks(4338), new Guid("7a2346e2-4f06-4a6c-bf22-8a16b7a69c4c"), null, "skyrockcorp@gmail.com", true, false, "Jonathan Mite", null });
 
             migrationBuilder.InsertData(
                 schema: "Sur",
